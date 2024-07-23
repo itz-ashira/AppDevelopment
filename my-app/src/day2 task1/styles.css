@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://t4.ftcdn.net/jpg/06/16/47/01/360_F_616470176_pkc2AuRvGVSuh1gmZ0TgXXF5qSAEd27m.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
