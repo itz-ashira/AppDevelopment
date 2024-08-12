@@ -1,0 +1,19 @@
+.courses-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.404), rgba(5, 10, 35, 0.75)), url(../../Utils/Images/courses-page-header.jpg);
+}
+
+.courses-page .card-img-overlay {
+    background-color: rgba(46, 46, 46, 0.514);
+}
+
+.courses-page .card:hover {
+    cursor: pointer;
+}
+
+.height-25{
+    /* margin-top: 100px; */
+    height:75vh ;
+}
+.btn{
+    margin-right: 150px;
+}
