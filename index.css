@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+body {
+  background: #757F9A;
+  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+  background: linear-gradient(to right, #D7DDE8, #757F9A); 
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Montserrat", sans-serif;
+}
