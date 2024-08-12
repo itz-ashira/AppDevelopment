@@ -1,0 +1,42 @@
+.admission-form {
+    padding: 20px;
+    margin-left: 220px; /* Account for sidebar width */
+  }
+  
+  .admission-form h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .admission-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admission-form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .admission-form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+  }
+  
+  .admission-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admission-form button:hover {
+    background-color: #2980b9;
+  }
+  
