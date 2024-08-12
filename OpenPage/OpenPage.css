@@ -1,0 +1,116 @@
+
+/* body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+} */
+
+.OpeningPage-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./download.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.OpeningPage-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+    margin: 20px;
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.OpeningPage-title {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.OpeningPage-welcome {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.OpeningPage-time {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.OpeningPage-links {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.OpeningPage-link {
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(135deg, #95825f, #b2b6a9);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
+}
+
+.OpeningPage-link:hover {
+    background: linear-gradient(135deg, #c9c9c9, #c7c5c2);
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+}
+
+.OpeningPage-footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.OpeningPage-footer p {
+    margin: 0;
+}
+
+.OpeningPage-social-links {
+    margin-top: 10px;
+}
+
+.OpeningPage-social-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.OpeningPage-social-link:hover {
+    color: #ddd;
+}
